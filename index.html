@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Responsive Restaurant website</title>
+	<link rel="stylesheet" type="text/css" href="style.min.css"/>
+</head>
+<body>
+	<!-- header start -->
+	<header>
+		<a class="logo" href="#">Food</a>
+		<div class="toggle" onclick="toggler();"></div>
+		<ul class="navbar">
+			<li><a href="#banner" onclick="toggler();">Home</a></li>
+			<li><a href="#about" onclick="toggler();">About</a></li>
+			<li><a href="#menu" onclick="toggler();">Menu</a></li>
+			<li><a href="#expert" onclick="toggler();">Expert</a></li>
+			<li><a href="#testimonials" onclick="toggler();">Testimonials</a></li>
+			<li><a href="#contact" onclick="toggler();">Contact</a></li>
+		</ul>
+	</header>
+	<!-- banner start -->
+  <section class="banner" id=banner>
+  	<div class="content text-center">
+  		<h2>Always Choose Good</h2>
+	  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	  	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	  	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	  	consequat.</p>
+	  	<a class="btn" href="#menu">Our Menu</a>
+  	</div>
+  </section>
+	<!-- about start -->
+  <section class="about py px d-flex" id="about">
+  	<div class="content">
+  	  <h2>About Us</h2>
+  	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  	  consequat Ut enim ad minim veniam, <br><br>
+  	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  	  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  	  cillum dolore eu fugiat nulla pariatur.</p>
+  	</div>
+
+  	<div class="imgbx">
+  		<img src="img/img1.jpg"/>
+  	</div>
+  </section>
+	<!-- menu section start -->
+  <section class="menu px py" id="menu">
+	<div class="content text-center">
+		<h2>Our <span>M</span>enu</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+	</div>
+  	<div class="our menu text-center">
+  		<div class="gallery d-flex">
+  			<div class="menu-item">
+  			<img src="img/menu1.jpg"/>
+  			<h3>Special Salad</h3>
+  		</div>
+  		<div class="menu-item">
+  			<img src="img/menu2.jpg"/>
+  			<h3>Special Soup</h3>
+  		</div>
+  		<div class="menu-item">
+  			<img src="img/menu3.jpg"/>
+  			<h3>Special Pasta</h3>
+  		</div>
+  		<div class="menu-item">
+  			<img src="img/menu4.jpg"/>
+  			<h3>Special Salad</h3>
+  		</div>
+  		<div class="menu-item">
+  			<img src="img/menu5.jpg"/>
+  			<h3>Special Soup</h3>
+  		</div>
+  		<div class="menu-item">
+  			<img src="img/menu6.jpg"/>
+  			<h3>Special Pasta</h3>
+  		</div>
+  		</div>
+  		<a class="btn" href="#">View All</a>
+  	</div> <!----gallery close--->
+  </section>
+  <!-- expert section start -->
+  <section class="our-expert px py" id="expert">
+  	<div class="content text-center">
+  		<h2>Our Kichen <span>E</span>xpert</h2>
+  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+  	</div>
+  	<div class="expert d-flex">
+  		<div class="imgbx">
+  			<img src="img/expert1.jpg"/>
+  			<h3>Someone Famouse</h3>
+  		</div>
+  		<div class="imgbx">
+  			<img src="img/expert2.jpg"/>
+  			<h3>Someone Famouse</h3>
+  		</div>
+  		<div class="imgbx">
+  			<img src="img/expert3.jpg"/>
+  			<h3>Someone Famouse</h3>
+  		</div>
+  		<div class="imgbx">
+  			<img src="img/expert4.jpg"/>
+  			<h3>Someone Famouse</h3>
+  		</div>
+  	</div>
+  </section>
+  <!-- tesmonial section -->
+  <section class="testimonial px py" id="testimonials">
+  	<div class="content text-center">
+  		<h2>They <span>S</span>aid About Us</h2>
+  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+  	</div>
+  	<div class="testimonial-card d-flex">
+  		<div class="card text-center">
+  			<div class="imgbx">
+  				<img src="img/test2.jpg"/>
+  			</div>
+  			<div class="card-body text-center">
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+  			</div>
+  			<h3>Someone Famouse</h3>
+  		</div>
+  		<div class="card text-center">
+  			<div class="imgbx">
+  				<img src="img/test3.jpg"/>
+  			</div>
+  			<div class="card-body text-center">
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+  			</div>
+  			<h3>Someone Famouse</h3>
+  		</div>
+  		<div class="card text-center">
+  			<div class="imgbx">
+  				<img src="img/test1.jpg"/>
+  			</div>
+  			<div class="card-body text-center">
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+  			</div>
+  			<h3>Someone Famouse</h3>
+  		</div>
+  	</div>
+  </section>
+  <!-- section contact -->
+  <section class="contact px py" id="contact">
+  	<div class="content text-center">
+  		<h2><span>C</span>ontact Us</h2>
+  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+  	</div>
+  	<div class="contact-form">
+		<h2>Send Message</h2>
+		<form>
+			<input type="text" name="" placeholder="Your Name" />
+			<input type="email" name="" placeholder="Email Address" />
+			<textarea placeholder="Your Message"></textarea>
+			<input type="submit" name="" value="Send"/>
+		</form>
+  	</div>
+  </section>
+  <!-- footer -->
+  <footer class="text-center">
+  	<p>&copy Copyright 2020. Design by <span>Md Iar Hossain</span></p>
+  </footer>
+  <script type="text/javascript">
+  	window.addEventListener('scroll', function() {
+  		const header = document.querySelector('header');
+  		  header.classList.toggle('sticky', window.scrollY > 0);
+  	});
+  	function toggler() {
+  		const toggleBtn = document.querySelector('.toggle');
+  			  toggleBtn.classList.toggle('active');
+  	}
+  </script>
+</body>
+</html>
